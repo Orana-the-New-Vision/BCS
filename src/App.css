@@ -1,0 +1,80 @@
+.App {
+  background-color: #282c34;
+  text-align: center;
+  color: white;
+  min-height: 300vh;
+}
+
+.App-header {
+  flex-direction: column;
+  align-items:left;
+  justify-content: left;
+  padding-left: 0%;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Headings{
+  text-align: left;
+  align-items:flex-start;
+  margin-left: 100px;
+}
+
+.leftcolumn {   
+  float: left;
+  width: 25%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 60%;
+  background-color: rgb(34, 35, 37);
+  margin-left: 20px;
+  padding-right: 100px;
+}
+/* Add a card effect for articles */
+.card {
+  padding: 20px;
+  background-color: rgb(34, 35, 37);
+  margin-top: 10px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+
+.bullets{
+  float: left;
+  height: 100px;
+  vertical-align: middle;
+  margin-top: -10px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer{
+  display: inline-block;
+  bottom: 100vh;
+  text-align: left;
+}
+
+.footerLinks{
+  display: inline-block;
+  bottom: 100vh;
+  text-align: right;
+  color: #486d78;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
