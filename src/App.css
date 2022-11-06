@@ -7,7 +7,7 @@
 
 .App-header {
   flex-direction: column;
-  align-items:left;
+  align-items: left;
   justify-content: left;
   padding-left: 0%;
   font-size: calc(10px + 2vmin);
@@ -17,13 +17,13 @@
   color: #61dafb;
 }
 
-.Headings{
+.Headings {
   text-align: left;
-  align-items:flex-start;
+  align-items: flex-start;
   margin-left: 100px;
 }
 
-.leftcolumn {   
+.leftcolumn {
   float: left;
   width: 25%;
 }
@@ -45,8 +45,7 @@
   margin-bottom: 20px;
 }
 
-
-.bullets{
+.bullets {
   float: left;
   height: 100px;
   vertical-align: middle;
@@ -58,13 +57,13 @@
   clear: both;
 }
 
-.footer{
+.footer {
   display: inline-block;
   bottom: 100vh;
   text-align: left;
 }
 
-.footerLinks{
+.footerLinks {
   display: inline-block;
   bottom: 100vh;
   text-align: right;
@@ -73,7 +72,8 @@
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 1800px) {
-  .leftcolumn, .rightcolumn {   
+  .leftcolumn,
+  .rightcolumn {
     width: 100%;
     padding: 0;
   }
