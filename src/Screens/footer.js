@@ -1,21 +1,23 @@
 import React, { useLayoutEffect } from "react";
+import "./Footer.css";
+
 function Footer() {
   return (
-    <footer>
-      <footer className="footer">
-        <h3>Contacts </h3>
-        <p>E-mail: SaulGoodMan@gmail.com</p>
-        <p>***</p>
+    <footer className="footer">
+      <footer>
+        <h3 className="contacts">Contacts </h3>
+        <p className="contacts">E-mail: SaulGoodMan@gmail.com</p>
+        <p className="contacts">***</p>
       </footer>
-      <footer className="footerLinks">
-        <h3>Contents</h3>
+      <footer>
+        <h3 className="content">Contents</h3>
         <p>
-          <a href="/" className="footerLinks">
+          <a href="/" className="content">
             Home
           </a>
         </p>
         <p>
-          <a href="/about" className="footerLinks">
+          <a href="/about" className="content">
             {" "}
             About
           </a>

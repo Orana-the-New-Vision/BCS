@@ -1,17 +1,13 @@
 import React from "react";
-import {Link} from 'react-router-dom'
-import topnav from './Bar.css'
+import { Link } from "react-router-dom";
+import topnav from "./Bar.css";
 
-function NavBar(){
-    return(
-        <nav class= "topnav">
-            <a>
-                <Link to ="/">Home</Link>
-            </a>
-            <a>
-                <Link to ="/about">About</Link>
-            </a>
-        </nav>
-    );
+function NavBar() {
+  return (
+    <nav class="topnav">
+      <Link to="/">Home</Link>
+      <Link to="/about">About</Link>
+    </nav>
+  );
 }
-export default NavBar
+export default NavBar;

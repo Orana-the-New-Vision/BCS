@@ -1,20 +1,20 @@
 .topnav {
-    overflow: hidden;
-    background-color: rgb(64, 69, 74);
-    
+  overflow: hidden;
+  background-color: rgb(64, 69, 74);
+  display: flex;
+  justify-content: center;
 }
-  /* Style the topnav links */
+/* Style the topnav links */
 .topnav a {
-    display: inline-block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 6px ;
-    text-decoration: none;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
 }
 
 /* Change color on hover */
 .topnav a:hover {
-    background-color: #ddd;
-    transition: 3;
-    color: black;
+  background-color: #ddd;
+  transition: 3;
+  color: black;
 }

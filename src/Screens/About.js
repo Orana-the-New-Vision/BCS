@@ -1,8 +1,8 @@
 import React from "react";
-import Saul from "../components/eys.png";
+import Saul from "../components/profile.png";
 import B from "../components/bullet.png";
-import "../App.css";
-import Footer from "./footer";
+import "./About.css";
+
 function About() {
   return (
     <div>
@@ -98,7 +98,6 @@ function About() {
           <form>E-mail: bettercallsaul@gmail.com CALL (505) 503-4455</form>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }
