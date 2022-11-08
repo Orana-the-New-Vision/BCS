@@ -1,26 +1,22 @@
 import React, { useLayoutEffect } from "react";
 import "./Footer.css";
-
+import card from "../components/card.png";
 function Footer() {
   return (
     <footer className="footer">
-      <footer>
-        <h3 className="contacts">Contacts </h3>
-        <p className="contacts">E-mail: SaulGoodMan@gmail.com</p>
-        <p className="contacts">***</p>
+      <footer className="contacts">
+        <h3>Contacts </h3>
+        <div>E-mail: SaulGoodMan@gmail.com</div>
+        <div>------------------------------------</div>
+        <img width={200} src={card} />
       </footer>
-      <footer>
-        <h3 className="content">Contents</h3>
+      <footer className="contacts">
+        <h3>Contents</h3>
         <p>
-          <a href="/" className="content">
-            Home
-          </a>
+          <a href="/">Home</a>
         </p>
         <p>
-          <a href="/about" className="content">
-            {" "}
-            About
-          </a>
+          <a href="/about"> About</a>
         </p>
       </footer>
     </footer>

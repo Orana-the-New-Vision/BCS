@@ -4,13 +4,13 @@ import About from "./Screens/About";
 import Footer from "./Screens/Footer";
 import { Route, Link, Routes } from "react-router-dom";
 import NavBar from "./utils/Bar";
-
+import logo from "./components/logo.png";
 function App() {
   return (
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <h1 style={{ marginTop: "0" }}>Better Call Saul </h1>
+          <img width="25%" src={logo} />
         </header>
         <NavBar />
         <Routes>

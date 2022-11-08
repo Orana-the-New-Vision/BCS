@@ -9,7 +9,7 @@ function About() {
       <h1 className="headings">About</h1>
       <div className="aboutC">
         <div className="column">
-          <img src={Saul} />
+          <img width={250} src={Saul} />
           <p className="card">
             <h3>BIO</h3>
             <div className="scrol">
@@ -83,7 +83,13 @@ function About() {
         </div>
         <div className="column">
           <div className="bullets">
-            <img width="200px" height="100px" vert src={B} />
+            <img
+              className="correction"
+              width="200px"
+              height="100px"
+              vert
+              src={B}
+            />
             <div className="card">
               As both himself and in his Saul Goodman persona, Jimmy McGill is a
               highly intelligent, cunning, manipulative person who is a
@@ -93,7 +99,13 @@ function About() {
             </div>
           </div>
           <div className="bullets">
-            <img width="200px" height="100px" vert src={B} />
+            <img
+              className="correction"
+              width="200px"
+              height="100px"
+              vert
+              src={B}
+            />
             <div className="card">
               Con artist (former) Mailroom clerk at Hamlin, Hamlin & McGill
               (former) Public Defense Attorney (former) Independent elder law
@@ -105,7 +117,13 @@ function About() {
             </div>
           </div>
           <div className="bullets">
-            <img width="200px" height="100px" vert src={B} />
+            <img
+              className="correction"
+              width="200px"
+              height="100px"
+              vert
+              src={B}
+            />
             <div className="card">
               <h4>Contacts</h4>
               <div>E-mail: bettercallsaul@gmail.com</div>

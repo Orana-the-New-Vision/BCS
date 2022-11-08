@@ -4,20 +4,20 @@
   justify-content: center;
   color: white;
   min-height: 100vh;
-  background-color: #282c34;
+  background-color: #535e66;
 }
 
 .App-header {
-  justify-content: left;
-  align-items: center;
-  font-size: calc(10px + 2vmin);
-}
-
-.Headings {
-  text-align: left;
+  justify-content: flex-start;
   align-items: flex-start;
 }
-
+.headings {
+  text-align: left;
+  font-size: calc(30px + 2vmin);
+  font-family: "Times New Roman", Times, serif;
+  font-style: oblique;
+  font-weight: normal;
+}
 .container {
   display: flex;
   flex-direction: column;

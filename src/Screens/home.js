@@ -1,10 +1,13 @@
 import React, { Component } from "react";
-import "../App.css";
+import "./Home.css";
+import goodman from "../components/welcome.png";
 function Home() {
   return (
-    <div>
-      <h1 className="AppHeader">HOME</h1>
-      Saul Goodman
+    <div className="container">
+      <h1 className="headings">Welcome</h1>
+      <div>
+        <img src={goodman} />
+      </div>
     </div>
   );
 }

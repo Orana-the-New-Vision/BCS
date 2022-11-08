@@ -1,22 +1,20 @@
 .card {
   display: flex;
   flex-direction: column;
-  background-color: rgb(34, 35, 37);
+  background-color: #8a8080;
   text-align: left;
   padding: 30px;
   margin-bottom: 50px;
-}
-
-.headings {
-  text-align: left;
-  align-items: flex-start;
-  width: 50%;
 }
 
 .bullets {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+}
+
+.correction {
+  margin-bottom: 50px;
 }
 
 .aboutC {
@@ -35,4 +33,5 @@ div.scrol {
   display: flex;
   flex-direction: column;
   flex-basis: 50%;
+  margin-left: 10px;
 }
