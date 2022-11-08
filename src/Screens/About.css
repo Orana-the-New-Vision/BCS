@@ -3,30 +3,36 @@
   flex-direction: column;
   background-color: rgb(34, 35, 37);
   text-align: left;
-  flex-basis: 50%;
   padding: 30px;
+  margin-bottom: 50px;
 }
 
 .headings {
   text-align: left;
   align-items: flex-start;
+  width: 50%;
 }
 
 .bullets {
   display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-.columns {
+.aboutC {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  flex: 1;
 }
 
 div.scrol {
   flex-direction: column;
-  width: 50%;
-  height: 50%;
+  height: 50vh;
   overflow: auto;
-  flex-basis: 1;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
 }

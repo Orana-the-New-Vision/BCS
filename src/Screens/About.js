@@ -7,8 +7,8 @@ function About() {
   return (
     <div>
       <h1 className="headings">About</h1>
-      <div className="columns">
-        <div className="headings">
+      <div className="aboutC">
+        <div className="column">
           <img src={Saul} />
           <p className="card">
             <h3>BIO</h3>
@@ -81,29 +81,36 @@ function About() {
             </div>
           </p>
         </div>
-        <div>
-          <div className="card">
-            <img className="bullets" vert src={B} />
-            As both himself and in his Saul Goodman persona, Jimmy McGill is a
-            highly intelligent, cunning, manipulative person who is a dedicated
-            criminal lawyer and also a complete conman at heart. He is overall a
-            person who will resort to whatever measures to achieve his own goals
-            or protect his client's interests.
+        <div className="column">
+          <div className="bullets">
+            <img width="200px" height="100px" vert src={B} />
+            <div className="card">
+              As both himself and in his Saul Goodman persona, Jimmy McGill is a
+              highly intelligent, cunning, manipulative person who is a
+              dedicated criminal lawyer and also a complete conman at heart. He
+              is overall a person who will resort to whatever measures to
+              achieve his own goals or protect his client's interests.
+            </div>
           </div>
-          <div className="card">
-            <img className="bullets" vert src={B} />
-            Con artist (former) Mailroom clerk at Hamlin, Hamlin & McGill
-            (former) Public Defense Attorney (former) Independent elder law
-            attorney (former) Associate attorney, Davis & Main (former) Elder
-            law attorney, Wexler McGill (former) Cell phone salesman, CC Mobile
-            (former) Criminal defense attorney, Saul Goodman & Associates
-            (former) Manager, Ice Station Zebra Associates (former) Cinnabon
-            manager (former)
+          <div className="bullets">
+            <img width="200px" height="100px" vert src={B} />
+            <div className="card">
+              Con artist (former) Mailroom clerk at Hamlin, Hamlin & McGill
+              (former) Public Defense Attorney (former) Independent elder law
+              attorney (former) Associate attorney, Davis & Main (former) Elder
+              law attorney, Wexler McGill (former) Cell phone salesman, CC
+              Mobile (former) Criminal defense attorney, Saul Goodman &
+              Associates (former) Manager, Ice Station Zebra Associates (former)
+              Cinnabon manager (former)
+            </div>
           </div>
-          <div className="card">
-            <img className="bullets" vert src={B} />
-            <h4>Contacts</h4>
-            <form>E-mail: bettercallsaul@gmail.com CALL (505) 503-4455</form>
+          <div className="bullets">
+            <img width="200px" height="100px" vert src={B} />
+            <div className="card">
+              <h4>Contacts</h4>
+              <div>E-mail: bettercallsaul@gmail.com</div>
+              <div>CALL (505) 503-4455</div>
+            </div>
           </div>
         </div>
       </div>
