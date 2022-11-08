@@ -1,54 +1,31 @@
 .App {
-  background-color: #282c34;
+  display: flex;
   text-align: center;
+  justify-content: center;
   color: white;
   min-height: 100vh;
+  background-color: #282c34;
 }
 
 .App-header {
-  flex-direction: row;
-  align-items: center;
   justify-content: left;
-  padding-left: 0%;
+  align-items: center;
   font-size: calc(10px + 2vmin);
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 .Headings {
   text-align: left;
   align-items: flex-start;
-  margin-left: 100px;
 }
 
 .container {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  width: 1280px;
 }
 
 /* Right column */
 /* Add a card effect for articles */
-.card {
-  padding: 20px;
-  background-color: rgb(34, 35, 37);
-  margin: 10px;
-  text-align: left;
-  margin-bottom: 20px;
-}
-
-.bullets {
-  float: left;
-  height: 100px;
-  vertical-align: middle;
-  margin-top: -10px;
-}
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 1800px) {
