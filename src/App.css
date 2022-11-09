@@ -1,16 +1,18 @@
 .App {
   display: flex;
+  flex-direction: column;
   text-align: center;
-  justify-content: center;
+  align-items: center;
   color: white;
-  min-height: 100vh;
   background-color: #535e66;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .App-header {
   justify-content: flex-start;
   align-items: flex-start;
 }
+
 .headings {
   text-align: left;
   font-size: calc(30px + 2vmin);
@@ -18,16 +20,12 @@
   font-style: oblique;
   font-weight: normal;
 }
+
 .container {
-  display: flex;
-  flex-direction: column;
+  min-height: 100vh;
   width: 1280px;
 }
 
-/* Right column */
-/* Add a card effect for articles */
-
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 1800px) {
   .leftcolumn,
   .rightcolumn {

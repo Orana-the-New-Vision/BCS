@@ -15,5 +15,6 @@
 /* Change color on hover */
 .topnav a:hover {
   background-color: #827a7a;
+  transition: 0.5s;
   color: black;
 }

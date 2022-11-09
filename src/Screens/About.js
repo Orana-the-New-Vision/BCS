@@ -1,11 +1,17 @@
 import React from "react";
 import Saul from "../components/profile.png";
 import B from "../components/bullet.png";
+import logo from "../components/logo.png";
 import "./About.css";
+import NavBar from "../utils/Bar";
 
 function About() {
   return (
     <div>
+      <header className="App-header">
+        <img width="25%" src={logo} />
+      </header>
+      <NavBar />
       <h1 className="headings">About</h1>
       <div className="aboutC">
         <div className="column">

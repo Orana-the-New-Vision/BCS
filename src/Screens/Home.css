@@ -1,1 +1,62 @@
+#header {
+  align-content: flex-end;
+  margin-top: 25vh;
+  transition: 1s;
+  padding-bottom: 50px;
+}
 
+.welcome {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-end;
+  font-size: xx-large;
+  font-family: "Times New Roman", Times, sans-serif;
+  font-style: italic;
+
+  border-style: double;
+  border-color: black;
+  border-radius: 10px;
+  border-width: 5px;
+
+  padding-bottom: 20px;
+  background-image: url("../components/office.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 1000px;
+}
+.themeC {
+  display: flex;
+  gap: 2px;
+  justify-content: center;
+}
+.cards {
+  border-style: double;
+  border-color: black;
+  border-radius: 10px;
+  border-width: 5px;
+
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: rgb(175, 172, 167);
+  text-align: left;
+  justify-content: center;
+}
+
+.quotes {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(12, 34, 44);
+  background-image: url("../components/mcGill.png");
+  background-size: 20%;
+  background-position: top left;
+  background-repeat: no-repeat;
+  height: fit-content;
+  justify-content: center;
+  font-style: oblique;
+  font-size: medium;
+  margin-bottom: 10px;
+}

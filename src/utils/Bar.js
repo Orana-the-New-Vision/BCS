@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import topnav from "./Bar.css";
+import "./Bar.css";
 import home from "../components/home.png";
 import about from "../components/about.png";
 function NavBar() {
