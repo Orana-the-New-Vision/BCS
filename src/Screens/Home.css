@@ -20,7 +20,7 @@
   border-width: 5px;
 
   padding-bottom: 20px;
-  background-image: url("../components/office.png");
+  background-image: url("../assets/office.png");
   background-size: 100%;
   background-repeat: no-repeat;
   height: 1000px;
@@ -50,7 +50,7 @@
   display: flex;
   flex-direction: column;
   background-color: rgb(12, 34, 44);
-  background-image: url("../components/mcGill.png");
+  background-image: url("../assets/mcGill.png");
   background-size: 20%;
   background-position: top left;
   background-repeat: no-repeat;
@@ -59,4 +59,10 @@
   font-style: oblique;
   font-size: medium;
   margin-bottom: 10px;
+}
+
+.embeded:hover {
+  text-decoration: underline;
+  width: auto;
+  transition: 6s;
 }

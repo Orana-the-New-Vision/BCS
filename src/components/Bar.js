@@ -1,17 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Bar.css";
-import home from "../components/home.png";
-import about from "../components/about.png";
+import home from "../assets/home.png";
+import about from "../assets/about.png";
 function NavBar() {
   return (
     <nav class="topnav">
-      <Link to="/">
+      <a href="/">
         <img src={home} />
-      </Link>
-      <Link to="/about">
+      </a>
+      <a href="/about">
         <img src={about} />
-      </Link>
+      </a>
     </nav>
   );
 }

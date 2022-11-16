@@ -1,7 +1,7 @@
 import "./App.css";
 import Home from "./Screens/Home";
 import About from "./Screens/About";
-import Footer from "./Screens/Footer";
+import Footer from "./components/Footer";
 import { Route, Link, Routes } from "react-router-dom";
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
           <Route path="about" element={<About />} />
         </Routes>
       </div>
-      <Footer width="100%" />
+      <Footer />
     </div>
   );
 }

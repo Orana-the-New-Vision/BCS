@@ -1,9 +1,9 @@
 import React from "react";
-import Saul from "../components/profile.png";
-import B from "../components/bullet.png";
-import logo from "../components/logo.png";
+import Saul from "../assets/profile.png";
+import B from "../assets/bullet.png";
+import logo from "../assets/logo.png";
 import "./About.css";
-import NavBar from "../utils/Bar";
+import NavBar from "../components/Bar";
 
 function About() {
   return (
@@ -89,13 +89,7 @@ function About() {
         </div>
         <div className="column">
           <div className="bullets">
-            <img
-              className="correction"
-              width="200px"
-              height="100px"
-              vert
-              src={B}
-            />
+            <img className="correction" width="200px" height="100px" src={B} />
             <div className="card">
               As both himself and in his Saul Goodman persona, Jimmy McGill is a
               highly intelligent, cunning, manipulative person who is a
@@ -105,13 +99,7 @@ function About() {
             </div>
           </div>
           <div className="bullets">
-            <img
-              className="correction"
-              width="200px"
-              height="100px"
-              vert
-              src={B}
-            />
+            <img className="correction" width="200px" height="100px" src={B} />
             <div className="card">
               Con artist (former) Mailroom clerk at Hamlin, Hamlin & McGill
               (former) Public Defense Attorney (former) Independent elder law

@@ -23,7 +23,7 @@
   justify-content: space-between;
 }
 
-div.scrol {
+.scrol {
   flex-direction: column;
   height: 50vh;
   overflow: auto;

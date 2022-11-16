@@ -1,6 +1,6 @@
 import React, { useLayoutEffect } from "react";
 import "./Footer.css";
-import card from "../components/card.png";
+import card from "../assets/card.png";
 function Footer() {
   return (
     <footer id="footer">

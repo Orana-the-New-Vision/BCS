@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import "./Home.css";
-import goodman from "../components/welcome.png";
-import logo from "../components/logo.png";
-import NavBar from "../utils/Bar";
-import office from "../components/office.png";
+import goodman from "../assets/welcome.png";
+import logo from "../assets/logo.png";
+import NavBar from "../components/Bar";
+import office from "../assets/office.png";
 window.onscroll = function () {
   scrollFunction();
 };
@@ -34,7 +34,7 @@ function Home() {
         <h1 className="header">Main Legal Practice Areas:</h1>
         <div className="themeC">
           <div className="cards">
-            <h2>Elder law</h2>
+            <h2 className="embeded">Elder law</h2>
             <p>
               Having a will is ipmortant. But knowing your family is protected
               is priceless. At SaulGoodMan we protect what matters most to you.
@@ -45,7 +45,7 @@ function Home() {
             </p>
           </div>
           <div className="cards">
-            <h2>Criminal law</h2>
+            <h2 className="embeded">Criminal law</h2>
             <p>
               Having a will is ipmortant. But knowing your family is protected
               is priceless. At SaulGoodMan we protect what matters most to you.
